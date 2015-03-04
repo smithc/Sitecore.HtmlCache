@@ -82,7 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="App_Config\Include\Sitecore.HtmlCache.config">
+    <None Include="App_Config\Include\zz.Sitecore.HtmlCache.config">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
