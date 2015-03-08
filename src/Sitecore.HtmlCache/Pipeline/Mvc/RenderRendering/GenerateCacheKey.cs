@@ -28,8 +28,6 @@ namespace Sitecore.HtmlCache.Pipeline.Mvc.RenderRendering
 	    {
 				object typeImplementation = GetInstanceOfType(definition.VaryByCustomImplementationType);
 
-				if (typeImplementation == null) return string.Empty;
-
 				ICustomCacheable keyProvider = typeImplementation as ICustomCacheable;
 
 		    if (keyProvider == null) return string.Empty;
