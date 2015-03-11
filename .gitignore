@@ -109,3 +109,6 @@ UpgradeLog*.XML
 
 # GhostDoc
 *.GhostDoc*
+
+#Sitecore DLLs
+lib/Sitecore
