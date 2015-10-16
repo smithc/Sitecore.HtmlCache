@@ -51,6 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomCache\ICustomCacheable.cs" />
+    <Compile Include="CustomCache\Providers\CustomHtmlCache.cs" />
+    <Compile Include="CustomCache\Providers\IStaleCacheProvider.cs" />
+    <Compile Include="Hooks\InitializeHtmlCacheHook.cs" />
     <Compile Include="Pipeline\Mvc\RenderRendering\GenerateCacheKey.cs" />
     <Compile Include="Pipeline\Mvc\RenderRendering\RenderingCachingDefinition.cs" />
     <Compile Include="Pipeline\Mvc\RenderRendering\SetCacheability.cs" />
